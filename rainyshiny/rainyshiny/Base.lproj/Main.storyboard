@@ -162,13 +162,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <connections>
-                                            <outlet property="dayLabel" destination="EbN-Gs-HlF" id="uqG-6N-Wxb"/>
-                                            <outlet property="highTemp" destination="6p2-ZC-Q1A" id="ZUF-Mr-pur"/>
-                                            <outlet property="lowTemp" destination="ab1-7T-30V" id="nOn-EN-Idj"/>
-                                            <outlet property="weatherIcon" destination="kg4-FR-auK" id="NWe-yq-AGv"/>
-                                            <outlet property="weatherType" destination="zhg-wo-AYS" id="hYO-2V-nqU"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

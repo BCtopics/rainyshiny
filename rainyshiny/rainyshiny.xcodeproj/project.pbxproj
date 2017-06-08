@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30FB7E5E757AFC8407104467 /* Pods_rainyshiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987AAE0A40378AC4C3B7FFE9 /* Pods_rainyshiny.framework */; };
+		6BC2D6171EE9FCE800489064 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D6161EE9FCE800489064 /* WeatherVC.swift */; };
 		6BCD88BE1EE9ED21000CD62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCD88BD1EE9ED21000CD62F /* AppDelegate.swift */; };
 		6BCD88C31EE9ED21000CD62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCD88C11EE9ED21000CD62F /* Main.storyboard */; };
 		6BCD88C51EE9ED21000CD62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCD88C41EE9ED21000CD62F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BC2D6161EE9FCE800489064 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		6BCD88BA1EE9ED21000CD62F /* rainyshiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyshiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCD88BD1EE9ED21000CD62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BCD88C21EE9ED21000CD62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6BCD88C11EE9ED21000CD62F /* Main.storyboard */,
+				6BC2D6161EE9FCE800489064 /* WeatherVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BCD88BE1EE9ED21000CD62F /* AppDelegate.swift in Sources */,
+				6BC2D6171EE9FCE800489064 /* WeatherVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +395,7 @@
 				6BCD88CE1EE9ED21000CD62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
